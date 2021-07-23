@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  flex-direction: row;
+
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.main {
+  background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  color: hsl(0, 36%, 70%);
+  padding-left: 6rem;
+  padding-top: 5rem;
+  padding-right: 6rem;
+}
+
+.picture {
+  background-image: url(images/hero-desktop.jpg);
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 7rem;
+}
+
+h3 {
+  font-weight: 300;
+  letter-spacing: 0.8rem;
+  font-size: 5rem;
+  margin: 2.5rem 0 1rem 0;
+}
+
+h3 span {
+  color: black;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+form {
+  display: flex;
+}
+.text-box {
+  border-radius: 50px;
+
+  font-size: 12px;
+  width: 100%;
+  height: 55px;
+  background-color: transparent;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: solid hsl(0, 36%, 70%);
+}
+
+.submit-button {
+  width: 80px;
+  height: 50px;
+  background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  border: transparent;
+  outline: transparent;
+  border-radius: 25px;
+  margin-left: -3rem;
+  margin-top: 0.1rem;
+  box-shadow: 0 5px 15px #debaba;
+}
+button:hover {
+  transform: scale(1.1);
+  background: linear-gradient(135deg, hsl(0, 50%, 90%), hsl(0, 80%, 86%));
+}
+.none {
+  display: none;
+}
